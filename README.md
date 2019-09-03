@@ -7,13 +7,6 @@ This project aims to reduce the time it takes to deliver and troubleshoot common
 
 ## Install
 
-### From PyPI (easier):
-
-This is recommended only if you intend to primarily interface with the terraform modules using the built-in GUI
-
-`pip install databricks-cloud-automation`
-
-
 ### Install from source (recommended for direct terraform deployments):
 
 Installing from source is recommended if you intend to use terraform to deploy the modules directly. For example, yoy may wish to clone this repository in an existing directory for your terraform project.
