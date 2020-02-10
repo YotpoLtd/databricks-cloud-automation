@@ -11,7 +11,7 @@ This project aims to reduce the time it takes to deliver and troubleshoot common
 
 Installing from source is recommended if you intend to use terraform to deploy the modules directly. For example, yoy may wish to clone this repository in an existing directory for your terraform project.
 
-1. `git clone https://github.com/databricks/databricks-cloud-automation.git`
+1. `git clone https://github.com/databrickslabs/databricks-cloud-automation.git`
 2. `cd databricks-cloud-automation`
 3. `pip install .`
 
