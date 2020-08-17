@@ -15,7 +15,7 @@ provider "aws" {
   region     = "${var.aws_foreign_acct_region != "" ? var.aws_foreign_acct_region : var.aws_region}"
   access_key = "${var.aws_foreign_acct_access_key != "" ? var.aws_foreign_acct_access_key : var.aws_access_key}"
   secret_key = "${var.aws_foreign_acct_secret_key != "" ? var.aws_foreign_acct_secret_key : var.aws_secret_key}"
-  version    = "~>1.52.0"
+  version    = "~>2.7"
 }
 
 locals {
